@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — AusCite</title>
+  <style>
+    :root {
+      --paper: #F4F0E6;
+      --teal: #0B5F6B;
+      --gold: #C4A35A;
+      --ink: #1A2332;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "DM Sans", "Segoe UI", system-ui, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    h1 {
+      font-family: Literata, Georgia, "Times New Roman", serif;
+      color: var(--teal);
+      font-size: 1.85rem;
+      margin: 0 0 0.35rem;
+    }
+    h2 {
+      font-family: Literata, Georgia, "Times New Roman", serif;
+      color: var(--teal);
+      font-size: 1.25rem;
+      margin: 1.75rem 0 0.5rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.25rem;
+    }
+    h3 { font-size: 1.05rem; margin: 1.1rem 0 0.35rem; color: var(--ink); }
+    .meta { color: #4a5568; font-size: 0.95rem; margin-bottom: 1.25rem; }
+    .chip {
+      display: inline-block;
+      background: var(--teal);
+      color: var(--paper);
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      margin-right: 0.35rem;
+    }
+    ul { padding-left: 1.2rem; }
+    a { color: var(--teal); }
+    .note {
+      background: #fffaf0;
+      border-left: 4px solid var(--gold);
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    footer { margin-top: 2.5rem; font-size: 0.85rem; color: #4a5568; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><span class="chip">AusCite</span> App Forge · Australia</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">
+      Effective date: 8 September 2026<br />
+      App: AusCite (<code>au.appforge.citelocal</code>)<br />
+      Operator: App Forge (Australia)
+    </p>
+
+    <h2>Overview</h2>
+    <p>AusCite is an Australian civic Q&amp;A app that shows informational answers with links to public official sources. We designed the MVP to keep personal data minimal.</p>
+    <div class="note">
+      <strong>Honesty about answers:</strong> In this MVP, questions stay on your device and are matched to local / mock answer content. AusCite does not run live AI legal research against the internet for each question. Answers are informational only and are not legal, tax, insurance, or medical advice.
+    </div>
+
+    <h2>Data we process</h2>
+    <h3>On your device</h3>
+    <ul>
+      <li><strong>Daily ask counter</strong> — stored in local storage to enforce the free daily limit (3 asks/day).</li>
+      <li><strong>Purchase stub / Pro flag</strong> — local marker for the RevenueCat entitlement <code>pro</code> during development. Production builds use RevenueCat + Google Play Billing.</li>
+    </ul>
+
+    <h3>Not collected by the MVP web/app shell</h3>
+    <ul>
+      <li>We do not require an account.</li>
+      <li>We do not use AdMob or third-party advertising SDKs.</li>
+      <li>We do not sell personal information.</li>
+    </ul>
+
+    <h3>When you go Pro (production)</h3>
+    <p>Google Play Billing and RevenueCat process purchase receipts and anonymous/app-user identifiers needed to unlock the <code>pro</code> entitlement. Their policies apply to payment processing.</p>
+
+    <h3>Questions you type</h3>
+    <p>In this MVP, questions stay on-device and are matched to local mock answers. A future cloud answer service would process question text to generate replies; if that ships, this policy will be updated before enablement.</p>
+
+    <h2>Permissions</h2>
+    <p>The Android shell may use standard network access (<code>INTERNET</code>) to load fonts and open official source URLs in a browser, and for Play Billing / RevenueCat when purchases are enabled. No SMS, contacts, precise location, or microphone access is required for the MVP.</p>
+
+    <h2>Children</h2>
+    <p>AusCite is aimed at adults dealing with tenancy, insurance, Medicare, and tax topics. It is not directed at children under 13.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:privacy@appforge.au">privacy@appforge.au</a> (placeholder)</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy as the product evolves. Material changes will be noted with a new effective date in the store listing and in <code>play-store/privacy.md</code>.</p>
+
+    <h2>Hosted URL</h2>
+    <p><strong>PLACEHOLDER:</strong> <a href="https://appforge.au/auscite/privacy">https://appforge.au/auscite/privacy</a></p>
+
+    <footer>Source: play-store/privacy.html · mirrors play-store/privacy.md</footer>
+  </main>
+</body>
+</html>

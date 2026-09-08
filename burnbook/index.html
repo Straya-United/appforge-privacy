@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BurnBook Privacy Policy</title>
+  <style>
+    :root { color-scheme: dark; --bg:#12141a; --fg:#e8eaed; --muted:#9aa0a6; --card:#1c1f26; --accent:#8ab4f8; --border:#2a2f3a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
+    main { max-width:720px; margin:0 auto; padding:2rem 1.25rem 3rem; }
+    h1 { font-size:1.75rem; margin:0 0 0.5rem; }
+    h2 { font-size:1.15rem; margin:1.75rem 0 0.5rem; color:var(--accent); }
+    .meta { color:var(--muted); font-size:0.95rem; margin-bottom:1.5rem; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem 1.15rem; margin:1rem 0; }
+    ul { padding-left:1.25rem; }
+    a { color:var(--accent); }
+    footer { margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--border); color:var(--muted); font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy &mdash; BurnBook</h1>
+    <p class="meta"><strong>Last updated:</strong> 9 September 2026<br /><strong>Contact:</strong> privacy@stackburn.app (placeholder; update before publish)</p>
+    <div class="card"><p><strong>Overview.</strong> BurnBook is a personal subscription spend tracker. This policy describes how the app handles data while Plus purchases are live via Google Play Billing and RevenueCat.</p></div>
+    <h2>Data we store</h2>
+    <p>Subscription names, amounts, billing cycles, renew dates, categories, notes, and app settings you enter.</p>
+    <h2>Where data lives</h2>
+    <p>Your subscription list and settings are stored locally on your device using Capacitor Preferences / WebView storage. BurnBook does not require an account and does not upload your stack list to BurnBook servers.</p>
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Internet</strong> &mdash; used for Google Play Billing / RevenueCat purchase and entitlement checks.</li>
+      <li><strong>Notifications (optional)</strong> &mdash; if you enable renew reminders, BurnBook may use local notification permission (including POST_NOTIFICATIONS on newer Android versions) to schedule on-device alerts. Notifications are generated on your device and are not used for marketing.</li>
+    </ul>
+    <h2>Purchases and third parties</h2>
+    <p>BurnBook Plus is available through Google Play Billing. Purchase flows and receipt / entitlement state may be processed by Google and by RevenueCat (our billing partner). BurnBook uses this to unlock Plus features (for example unlimited stacks and renew prompts).</p>
+    <p>Your subscription stack list stays on your device; BurnBook does not upload that list as part of purchase processing.</p>
+    <p>The MVP does not include analytics SDKs or ad networks.</p>
+    <h2>Children</h2>
+    <p>BurnBook is not directed at children under 13.</p>
+    <h2>Your choices</h2>
+    <p>You can clear app data / storage in system settings to delete local subscriptions. Reset sample data is also available in Settings. Manage or cancel Play subscriptions in Google Play subscription settings.</p>
+    <h2>Changes</h2>
+    <p>We may update this policy. Material changes will be noted with a new Last updated date.</p>
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:privacy@stackburn.app">privacy@stackburn.app</a> (placeholder for store submission).</p>
+    <footer>
+      <!-- Public HTTPS URL placeholder (required by Play): https://YOUR_DOMAIN/burnbook/privacy -->
+      BurnBook &middot; App Forge Digital &middot; Brisbane, QLD, AU
+    </footer>
+  </main>
+</body>
+</html>
