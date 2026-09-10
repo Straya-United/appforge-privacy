@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KeepFold Privacy Policy — AppForge Digital</title>
+  <style>
+    :root { color-scheme: light; --bg:#F7F3EB; --ink:#2A2A28; --muted:#6B6A64; --sage:#7A9E8E; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--ink); line-height:1.55; }
+    main { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+    h1 { font-size:1.75rem; margin:0 0 8px; }
+    h2 { font-size:1.15rem; margin:28px 0 8px; }
+    p, li { color:var(--ink); }
+    .muted { color:var(--muted); }
+    a { color:var(--sage); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>KeepFold Privacy Policy</h1>
+  <p class="muted">AppForge Digital (Sydney) · Last updated: 10 September 2026</p>
+  <p>KeepFold (“the App”) is a household-safe photo declutter tool. This policy explains what we collect, how media is handled, and how billing works.</p>
+  <h2>Summary</h2>
+  <ul>
+    <li>Photos and videos are processed on your device for declutter features.</li>
+    <li>This MVP uses local stubs / heuristics for duplicate clustering and protect tags — media is not uploaded to AppForge servers for analysis.</li>
+    <li>We do not use AdMob or third-party advertising SDKs.</li>
+    <li>Subscriptions and lifetime unlocks are handled by Google Play and RevenueCat.</li>
+  </ul>
+  <h2>Data we process</h2>
+  <h3>Photos &amp; media (on-device)</h3>
+  <p>When gallery access is granted on a native build, the App may read media metadata and content locally to group near-duplicates and apply protect tags (receipt, ID, kids, warranty). In the current MVP, web preview uses demo media stubs; clustering is heuristic and protect tags use lightweight OCR-style heuristics — not a claim of full on-device computer vision.</p>
+  <p>We do not sell your photos. We do not use your gallery for advertising.</p>
+  <h3>App preferences</h3>
+  <p>Settings such as onboarding completion, scan mode, demo Plus unlock, and keep/trash queues may be stored locally (e.g. Capacitor Preferences) on your device.</p>
+  <h3>Purchases</h3>
+  <p>If you buy KeepFold Plus, Google Play processes payment. RevenueCat manages entitlements (entitlement id <code>plus</code>). RevenueCat may receive purchase tokens / anonymous app user identifiers as needed to unlock Plus. See <a href="https://www.revenuecat.com/privacy">RevenueCat’s privacy policy</a>.</p>
+  <h3>Diagnostics</h3>
+  <p>Google Play may collect standard install and crash diagnostics according to your device and Play settings. The App does not include a separate advertising analytics SDK.</p>
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Photos / media</strong> — required for declutter on native builds (stubbed in web preview).</li>
+    <li><strong>Internet</strong> — used for Google Play Billing and RevenueCat entitlement checks when configured.</li>
+  </ul>
+  <h2>Children</h2>
+  <p>KeepFold is a general-audience utility. It is not directed at children under 13. The “kids” protect tag exists to help households avoid deleting family photos of minors — it is not a children’s social product.</p>
+  <h2>Data retention &amp; deletion</h2>
+  <p>Local preferences remain on device until you clear app data or uninstall. Purchase records are retained by Google Play / RevenueCat per their policies. Uninstalling the App removes local app storage on your device.</p>
+  <h2>Your choices</h2>
+  <ul>
+    <li>Deny Photos permission — declutter features that need the gallery will not run (demo stubs may still preview UI).</li>
+    <li>Manage or cancel subscriptions in Google Play subscriptions.</li>
+    <li>Contact us to ask privacy questions (below).</li>
+  </ul>
+  <h2>International</h2>
+  <p>AppForge Digital is based in Sydney, Australia. Billing providers may process data in other regions as described in their policies.</p>
+  <h2>Changes</h2>
+  <p>We may update this policy as the App gains real gallery pipelines or OCR. Material changes will be reflected in this document and the Play listing when required.</p>
+  <h2>Contact</h2>
+  <p>AppForge Digital (Sydney)<br />
+  Email: <a href="mailto:privacy@appforgedigital.com">privacy@appforgedigital.com</a><br />
+  Support: <a href="mailto:support@appforgedigital.com">support@appforgedigital.com</a></p>
+</main>
+</body>
+</html>
